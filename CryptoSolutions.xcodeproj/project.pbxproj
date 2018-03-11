@@ -27,14 +27,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		FD8988222053B56B000FAE6C /* hexToBase64.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hexToBase64.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD8988222053B56B000FAE6C /* CryptoSolutions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoSolutions.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD8988252053B56B000FAE6C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FD8988272053B56B000FAE6C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FD89882A2053B56B000FAE6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FD89882C2053B56B000FAE6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD89882F2053B56B000FAE6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FD8988312053B56B000FAE6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FD8988362053B56B000FAE6C /* hexToBase64Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hexToBase64Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD8988362053B56B000FAE6C /* CryptoSolutionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CryptoSolutionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD89883A2053B56B000FAE6C /* hexToBase64Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hexToBase64Tests.swift; sourceTree = "<group>"; };
 		FD89883C2053B56B000FAE6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FD8988452053B594000FAE6C /* HexToBase64.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexToBase64.swift; sourceTree = "<group>"; };
@@ -61,8 +61,8 @@
 		FD8988192053B56A000FAE6C = {
 			isa = PBXGroup;
 			children = (
-				FD8988242053B56B000FAE6C /* hexToBase64 */,
-				FD8988392053B56B000FAE6C /* hexToBase64Tests */,
+				FD8988242053B56B000FAE6C /* CryptoSolutions */,
+				FD8988392053B56B000FAE6C /* CryptoSolutionsTests */,
 				FD8988232053B56B000FAE6C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,13 +70,13 @@
 		FD8988232053B56B000FAE6C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FD8988222053B56B000FAE6C /* hexToBase64.app */,
-				FD8988362053B56B000FAE6C /* hexToBase64Tests.xctest */,
+				FD8988222053B56B000FAE6C /* CryptoSolutions.app */,
+				FD8988362053B56B000FAE6C /* CryptoSolutionsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FD8988242053B56B000FAE6C /* hexToBase64 */ = {
+		FD8988242053B56B000FAE6C /* CryptoSolutions */ = {
 			isa = PBXGroup;
 			children = (
 				FD8988252053B56B000FAE6C /* AppDelegate.swift */,
@@ -87,24 +87,24 @@
 				FD8988312053B56B000FAE6C /* Info.plist */,
 				FD8988452053B594000FAE6C /* HexToBase64.swift */,
 			);
-			path = hexToBase64;
+			path = CryptoSolutions;
 			sourceTree = "<group>";
 		};
-		FD8988392053B56B000FAE6C /* hexToBase64Tests */ = {
+		FD8988392053B56B000FAE6C /* CryptoSolutionsTests */ = {
 			isa = PBXGroup;
 			children = (
 				FD89883A2053B56B000FAE6C /* hexToBase64Tests.swift */,
 				FD89883C2053B56B000FAE6C /* Info.plist */,
 			);
-			path = hexToBase64Tests;
+			path = CryptoSolutionsTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FD8988212053B56B000FAE6C /* hexToBase64 */ = {
+		FD8988212053B56B000FAE6C /* CryptoSolutions */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FD89883F2053B56B000FAE6C /* Build configuration list for PBXNativeTarget "hexToBase64" */;
+			buildConfigurationList = FD89883F2053B56B000FAE6C /* Build configuration list for PBXNativeTarget "CryptoSolutions" */;
 			buildPhases = (
 				FD89881E2053B56B000FAE6C /* Sources */,
 				FD89881F2053B56B000FAE6C /* Frameworks */,
@@ -114,14 +114,14 @@
 			);
 			dependencies = (
 			);
-			name = hexToBase64;
+			name = CryptoSolutions;
 			productName = hexToBase64;
-			productReference = FD8988222053B56B000FAE6C /* hexToBase64.app */;
+			productReference = FD8988222053B56B000FAE6C /* CryptoSolutions.app */;
 			productType = "com.apple.product-type.application";
 		};
-		FD8988352053B56B000FAE6C /* hexToBase64Tests */ = {
+		FD8988352053B56B000FAE6C /* CryptoSolutionsTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FD8988422053B56B000FAE6C /* Build configuration list for PBXNativeTarget "hexToBase64Tests" */;
+			buildConfigurationList = FD8988422053B56B000FAE6C /* Build configuration list for PBXNativeTarget "CryptoSolutionsTests" */;
 			buildPhases = (
 				FD8988322053B56B000FAE6C /* Sources */,
 				FD8988332053B56B000FAE6C /* Frameworks */,
@@ -132,9 +132,9 @@
 			dependencies = (
 				FD8988382053B56B000FAE6C /* PBXTargetDependency */,
 			);
-			name = hexToBase64Tests;
+			name = CryptoSolutionsTests;
 			productName = hexToBase64Tests;
-			productReference = FD8988362053B56B000FAE6C /* hexToBase64Tests.xctest */;
+			productReference = FD8988362053B56B000FAE6C /* CryptoSolutionsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -144,7 +144,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = Averia;
 				TargetAttributes = {
 					FD8988212053B56B000FAE6C = {
@@ -158,7 +158,7 @@
 					};
 				};
 			};
-			buildConfigurationList = FD89881D2053B56B000FAE6C /* Build configuration list for PBXProject "hexToBase64" */;
+			buildConfigurationList = FD89881D2053B56B000FAE6C /* Build configuration list for PBXProject "CryptoSolutions" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -171,8 +171,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FD8988212053B56B000FAE6C /* hexToBase64 */,
-				FD8988352053B56B000FAE6C /* hexToBase64Tests */,
+				FD8988212053B56B000FAE6C /* CryptoSolutions */,
+				FD8988352053B56B000FAE6C /* CryptoSolutionsTests */,
 			);
 		};
 /* End PBXProject section */
@@ -221,7 +221,7 @@
 /* Begin PBXTargetDependency section */
 		FD8988382053B56B000FAE6C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FD8988212053B56B000FAE6C /* hexToBase64 */;
+			target = FD8988212053B56B000FAE6C /* CryptoSolutions */;
 			targetProxy = FD8988372053B56B000FAE6C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -260,6 +260,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -267,6 +268,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -317,6 +319,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -324,6 +327,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -359,7 +363,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YT3VFVK232;
-				INFOPLIST_FILE = hexToBase64/Info.plist;
+				INFOPLIST_FILE = CryptoSolutions/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.averia.hexToBase64;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -374,7 +378,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YT3VFVK232;
-				INFOPLIST_FILE = hexToBase64/Info.plist;
+				INFOPLIST_FILE = CryptoSolutions/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.averia.hexToBase64;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -390,13 +394,13 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YT3VFVK232;
-				INFOPLIST_FILE = hexToBase64Tests/Info.plist;
+				INFOPLIST_FILE = CryptoSolutions/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.averia.hexToBase64Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hexToBase64.app/hexToBase64";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CryptoSolutions.app/CryptoSolutions";
 			};
 			name = Debug;
 		};
@@ -407,20 +411,20 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YT3VFVK232;
-				INFOPLIST_FILE = hexToBase64Tests/Info.plist;
+				INFOPLIST_FILE = CryptoSolutions/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.averia.hexToBase64Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hexToBase64.app/hexToBase64";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CryptoSolutions.app/CryptoSolutions";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FD89881D2053B56B000FAE6C /* Build configuration list for PBXProject "hexToBase64" */ = {
+		FD89881D2053B56B000FAE6C /* Build configuration list for PBXProject "CryptoSolutions" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FD89883D2053B56B000FAE6C /* Debug */,
@@ -429,7 +433,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FD89883F2053B56B000FAE6C /* Build configuration list for PBXNativeTarget "hexToBase64" */ = {
+		FD89883F2053B56B000FAE6C /* Build configuration list for PBXNativeTarget "CryptoSolutions" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FD8988402053B56B000FAE6C /* Debug */,
@@ -438,7 +442,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FD8988422053B56B000FAE6C /* Build configuration list for PBXNativeTarget "hexToBase64Tests" */ = {
+		FD8988422053B56B000FAE6C /* Build configuration list for PBXNativeTarget "CryptoSolutionsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FD8988432053B56B000FAE6C /* Debug */,

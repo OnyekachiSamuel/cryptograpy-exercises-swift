@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:hexToBase64.xcodeproj">
+      location = "self:/Users/andeladeveloper/projects/Cryptography/hexToBase64/CryptoSolutions.xcodeproj">
    </FileRef>
 </Workspace>

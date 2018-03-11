@@ -1,7 +1,7 @@
 
 import XCTest
 
-@testable import hexToBase64
+@testable import CryptoSolutions
 
 class hexToBase64Tests: XCTestCase {
 
