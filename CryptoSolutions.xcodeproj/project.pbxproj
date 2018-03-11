@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FD6C0B442055591B00134D67 /* Xor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6C0B432055591B00134D67 /* Xor.swift */; };
+		FD6C0B462055630900134D67 /* xorCombinationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6C0B452055630900134D67 /* xorCombinationTests.swift */; };
 		FD8988262053B56B000FAE6C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8988252053B56B000FAE6C /* AppDelegate.swift */; };
 		FD8988282053B56B000FAE6C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8988272053B56B000FAE6C /* ViewController.swift */; };
 		FD89882B2053B56B000FAE6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD8988292053B56B000FAE6C /* Main.storyboard */; };
@@ -27,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FD6C0B432055591B00134D67 /* Xor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Xor.swift; sourceTree = "<group>"; };
+		FD6C0B452055630900134D67 /* xorCombinationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = xorCombinationTests.swift; sourceTree = "<group>"; };
 		FD8988222053B56B000FAE6C /* CryptoSolutions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoSolutions.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD8988252053B56B000FAE6C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FD8988272053B56B000FAE6C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -86,6 +90,7 @@
 				FD89882E2053B56B000FAE6C /* LaunchScreen.storyboard */,
 				FD8988312053B56B000FAE6C /* Info.plist */,
 				FD8988452053B594000FAE6C /* HexToBase64.swift */,
+				FD6C0B432055591B00134D67 /* Xor.swift */,
 			);
 			path = CryptoSolutions;
 			sourceTree = "<group>";
@@ -94,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				FD89883A2053B56B000FAE6C /* hexToBase64Tests.swift */,
+				FD6C0B452055630900134D67 /* xorCombinationTests.swift */,
 				FD89883C2053B56B000FAE6C /* Info.plist */,
 			);
 			path = CryptoSolutionsTests;
@@ -203,6 +209,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD8988462053B594000FAE6C /* HexToBase64.swift in Sources */,
+				FD6C0B442055591B00134D67 /* Xor.swift in Sources */,
 				FD8988282053B56B000FAE6C /* ViewController.swift in Sources */,
 				FD8988262053B56B000FAE6C /* AppDelegate.swift in Sources */,
 			);
@@ -213,6 +220,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD89883B2053B56B000FAE6C /* hexToBase64Tests.swift in Sources */,
+				FD6C0B462055630900134D67 /* xorCombinationTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
